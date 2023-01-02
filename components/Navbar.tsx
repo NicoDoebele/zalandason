@@ -13,6 +13,10 @@ export default function navbar() {
             <a href="/login" className="bg-gray-100 p-1 rounded-md hover:bg-gray-200">
                 Login
             </a>
+
+            <a href="/register" className="bg-gray-100 p-1 rounded-md hover:bg-gray-200">
+                Register
+            </a>
         </div>
     
     </>)

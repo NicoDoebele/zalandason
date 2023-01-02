@@ -1,8 +1,9 @@
 import Article from "../../components/Article"
+import { getHostAddress } from "../../utils/getHostAddress"
 
 export default async function Articles() {
 
-    const articles = await fetch("http://localhost:3000/api/articles").then(res => res.json())
+    const articles = await fetch(getHostAddress() + "/api/articles").then(res => res.json())
 
     return (
         <>
